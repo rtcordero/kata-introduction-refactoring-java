@@ -1,6 +1,6 @@
 # Workshop introduction refactoring in Java
 
-> Use **Maven** to open this project and copy the contents of the file corresponding to the installed Java version (`java8-pom.xml` or `java11-pom.xml`) into the `pom.xml` file.
+> Use **Maven** to open this project and copy the contents of the file corresponding to the installed Java version (`java8-pom.txt` or `java11-pom.txt`) into the `pom.xml` file.
 
 In this repository you will find the first 3 exercises of our course of advanced refactoring:
 
