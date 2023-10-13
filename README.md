@@ -4,6 +4,12 @@
 
 In this repository you will find the first 3 exercises of our course of advanced refactoring:
 
+## Prerequisites
+
+In order to run this workshop you will need to have installed the Intellij IDE https://www.jetbrains.com/idea/
+
+## Exercises
+
 - **Exercise 1:**
 
   The aim of this exercise is for you to understand how values and references work in Java. You must complete the tests in the file `youShouldUnderstandValuesAndReferences.java` , getting them to pass.
