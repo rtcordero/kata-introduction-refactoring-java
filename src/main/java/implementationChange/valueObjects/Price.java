@@ -1,15 +1,11 @@
-package implementationChange;
-
-import java.util.List;
+package implementationChange.valueObjects;
 
 public class Price {
     private final int value;
 
-
     public Price(int value) {
         this.value = value;
     }
-
 
     public int getValue() {
         return value;
@@ -18,11 +14,11 @@ public class Price {
     public boolean isMoreThan(Price price) {
         return this.value >= price.getValue();
     }
-
-    static Price calculateTotalPrices(List<Price> prices) {
-        int totalPriceValue = prices.stream()
-                .mapToInt(Price::getValue)
-                .sum();
-        return new Price(totalPriceValue);
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Price price = (Price) o;
+        return value == price.value;
     }
 }

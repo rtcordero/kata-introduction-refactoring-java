@@ -1,4 +1,4 @@
-package implementationChange;
+package implementationChange.valueObjects;
 
 public class Discount {
     Price value;
@@ -11,7 +11,7 @@ public class Discount {
         return price.isMoreThan(this.value);
     }
 
-    public static Discount discountMoreThan100(){
+    public static Discount moreThan100Discount() {
         return new Discount(new Price(100));
     }
 
